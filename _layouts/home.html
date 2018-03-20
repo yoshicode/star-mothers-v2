@@ -9,6 +9,11 @@ layout: default
 
     {{ content }}
 
+    <aside id="mainimg">
+        <img src="/images/star-mothers1-a47c64f8b6e64d0e6c1afb11f137e6a4a2f72b7ea81f0101c530f86fe6e3dcf2.png" id="slide1" alt="">
+        <img src="/images/star-mothers2-af648a4b9baffe4713655acdf85165ae33c01d3153802f71a31060a3fa4266ed.png" id="slide2" alt="">
+    </aside>
+
     {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -27,8 +32,6 @@ layout: default
         </li>
         {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     {%- endif -%}
 
 </div>
