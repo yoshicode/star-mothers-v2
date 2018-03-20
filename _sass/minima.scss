@@ -951,3 +951,15 @@ ul.disc {
   height: auto;
 }
 
+.bg_transparent > a > img {
+  width: 35px;
+}
+
+.bg_transparent {
+  background-color: transparent!important;
+  border-bottom: none!important;
+}
+
+.pull-left {
+  float: left;
+}
