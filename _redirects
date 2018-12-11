@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://quirky-hypatia-00e5f4.netlify.com/* https://star-mothers.com/:splat 301!
